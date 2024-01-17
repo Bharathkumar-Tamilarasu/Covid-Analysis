@@ -1,4 +1,4 @@
-![image](https://github.com/Bharathkumar-Tamilarasu/Covid19-An-Analytical-Study/assets/136069598/3fad1753-d5af-4a3e-ad4f-88fba4e7746a)# Covid-19 : An Analytical Study
+# Covid-19 : An Analytical Study
 
 ## Question and Answers
 
