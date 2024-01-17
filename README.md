@@ -19,7 +19,7 @@ Find out the SQL analysis below
 
 ## Datasets Used
  
-For this case study, we used totally eight key data sets.
+For this case study, we used a total of eight key datasets extracted from [https://ourworldindata.org/covid-deaths](https://ourworldindata.org/covid-deaths)
 
 Four key [datasets](https://github.com/Bharathkumar-Tamilarasu/Covid19-An-Analytical-Study/tree/main/Covid%20Deaths%20Split%20CSVs) are related to Covid Deaths. We combined all these data into one table 'COVID_DEATHS'.
 - <strong>Covid Deaths_2020.csv</strong>: Details about Covid Deaths - Year 2020
