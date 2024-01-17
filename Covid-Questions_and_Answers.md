@@ -67,7 +67,7 @@ WHERE CONTINENT IS NOT NULL
 ORDER BY 4 DESC
 ````
 
-**Results: Latest 5 values**
+**Results:**
 
 | location       | population | highest_infection_count | highest_infected_percentage |
 |----------------|------------|-------------------------|-----------------------------|
@@ -94,7 +94,7 @@ GROUP BY 1
 ORDER BY 2 DESC
 ````
 
-**Results: Latest 5 values**
+**Results:**
 
 | location       | highest_death_count |
 |----------------|---------------------|
@@ -109,50 +109,9 @@ ORDER BY 2 DESC
 | Germany        | 174979              |
 | France         | 167985              |
 
-### Breaking things down by Continent
-
-**5.**  What is the total death count per continent?
-
-````sql
-SELECT CONTINENT,
-	SUM(TOTAL_DEATHS) AS TOTAL_DEATHS
-FROM COVID_DEATHS
-WHERE CONTINENT IS NOT NULL
-GROUP BY 1
-ORDER BY 2 DESC
-````
-
-**Results: Latest 5 values**
-
-| continent     | total_deaths |
-|---------------|--------------|
-| Europe        | 1711185547   |
-| North America | 1368907386   |
-| Asia          | 1285867860   |
-| South America | 1228855967   |
-| Africa        | 226883410    |
-| Oceania       | 13982259     |
-
-### Global numbers
-
-**6.**  What is the global total death count?
-
-````sql
-SELECT SUM(NEW_CASES) AS TOTAL_CASES,
-	SUM(NEW_DEATHS) AS NEW_DEATHS,
-	(SUM(NEW_DEATHS) * 1.0 / SUM(NEW_CASES) * 1.0) * 100 AS DEATH_PERCENTAGE
-FROM COVID_DEATHS
-WHERE CONTINENT IS NOT NULL
-````
-
-**Results: Latest 5 values**
-
-| total_cases | new_deaths | death_percentage |
-|-------------|------------|------------------|
-| 770955465   | 6965862    | 0.903536237      |
 
 
-**7.**  What is the number of people who have received at least one COVID vaccine (in India)?
+**5.**  What is the number of people who have received at least one COVID vaccine (in India)?
 
 ````sql
 SELECT DE.LOCATION,
@@ -179,7 +138,7 @@ ORDER BY 2 DESC
 | India    | 24-09-2023 | 1417173120 | 114                    | 2112026869         |
 | India    | 23-09-2023 | 1417173120 | 157                    | 2112026755         |
 
-**8.**  What is the percentage of the population that has received at least one COVID vaccine (in India)?
+**6.**  What is the percentage of the population that has received at least one COVID vaccine (in India)?
 
 ````sql
 WITH POP_VAC_CTE (LOCATION,DATE,POPULATION, NEW_VACCINATIONS, TOTAL_VACCINATIONS) 
@@ -212,3 +171,45 @@ ORDER BY 1,2 DESC
 | India    | 25-09-2023 | 1417173120 | 67               | 2112026936         | 149.0309763                   |
 | India    | 24-09-2023 | 1417173120 | 114              | 2112026869         | 149.0309715                   |
 | India    | 23-09-2023 | 1417173120 | 157              | 2112026755         | 149.0309635                   |
+
+### Breaking things down by Continent
+
+**7.**  What is the total death count per continent?
+
+````sql
+SELECT CONTINENT,
+	SUM(TOTAL_DEATHS) AS TOTAL_DEATHS
+FROM COVID_DEATHS
+WHERE CONTINENT IS NOT NULL
+GROUP BY 1
+ORDER BY 2 DESC
+````
+
+**Results:**
+
+| continent     | total_deaths |
+|---------------|--------------|
+| Europe        | 1711185547   |
+| North America | 1368907386   |
+| Asia          | 1285867860   |
+| South America | 1228855967   |
+| Africa        | 226883410    |
+| Oceania       | 13982259     |
+
+### Global numbers
+
+**8.**  What is the global total death count?
+
+````sql
+SELECT SUM(NEW_CASES) AS TOTAL_CASES,
+	SUM(NEW_DEATHS) AS NEW_DEATHS,
+	(SUM(NEW_DEATHS) * 1.0 / SUM(NEW_CASES) * 1.0) * 100 AS DEATH_PERCENTAGE
+FROM COVID_DEATHS
+WHERE CONTINENT IS NOT NULL
+````
+
+**Results:**
+
+| total_cases | new_deaths | death_percentage |
+|-------------|------------|------------------|
+| 770955465   | 6965862    | 0.903536237      |
