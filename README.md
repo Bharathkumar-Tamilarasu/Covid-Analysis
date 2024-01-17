@@ -10,7 +10,7 @@ This project uses SQL to study Covid-19 data from January 1, 2020, to October 3,
 
 ## Data Analysis
 
-Find out my analysis below
+Find out the SQL analysis below
 * [Question & Answers](https://github.com/Bharathkumar-Tamilarasu/Covid19-An-Analytical-Study/blob/main/Covid-Questions_and_Answers.md)
 
 ## Data Visualization
