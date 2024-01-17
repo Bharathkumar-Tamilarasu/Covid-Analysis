@@ -8,7 +8,14 @@
 ## Introduction
 This project uses SQL to study Covid-19 data from January 1, 2020, to October 3, 2023. By asking questions to the data, we found important facts about the Covid-19 pandemic during this time. The project helps us understand how the pandemic has affected people and countries over the past few years.
 
-* [Data Analysis Question & Answers](https://github.com/Bharathkumar-Tamilarasu/Covid19-An-Analytical-Study/blob/main/Covid-Questions_and_Answers.md)
+## Data Analysis
+
+Find out my analysis below
+* [Question & Answers](https://github.com/Bharathkumar-Tamilarasu/Covid19-An-Analytical-Study/blob/main/Covid-Questions_and_Answers.md)
+
+## Data Visualization
+
+* Using [Tableau](https://public.tableau.com/app/profile/bharathkumar.tamilarasu/viz/Covid19Analysis_16974819683520/Covid19Analysis)
 
 ## Datasets used
  
