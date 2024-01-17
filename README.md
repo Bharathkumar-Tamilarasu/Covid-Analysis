@@ -17,7 +17,7 @@ Find out the SQL analysis below
 
 * Using [Tableau](https://public.tableau.com/app/profile/bharathkumar.tamilarasu/viz/Covid19Analysis_16974819683520/Covid19Analysis)
 
-## Datasets used
+## Datasets Used
  
 For this case study, we used totally eight key data sets.
 
