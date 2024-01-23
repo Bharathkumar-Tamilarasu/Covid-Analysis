@@ -1,8 +1,8 @@
 # Covid-19 : An Analytical Study
 
-![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
-![Tableau](https://img.shields.io/badge/tableau-%23E97627.svg?style=for-the-badge&logo=tableau&logoColor=white)
-
+![Postgresql](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=Tableau&logoColor=white)
+![MicrosoftSQLServer](https://img.shields.io/badge/Microsoft%20SQL%20Server-CC2927?style=for-the-badge&logo=microsoft%20sql%20server&logoColor=white)
 
 **Author**: Bharathkumar Tamilarasu <br />
 **Email**: bharathkumar.t.17@gmail.com <br />
