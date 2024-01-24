@@ -9,6 +9,10 @@
 **Website**: https://bharathkumart17.wixsite.com/portfolio <br />
 **LinkedIn**: https://www.linkedin.com/in/bharathkumar-tamilarasu-218429222/  <br />
 
+##
+
+![Covid_1](https://github.com/Bharathkumar-Tamilarasu/Covid19-An-Analytical-Study/blob/main/Covid_3.jpg)
+
 ## Introduction
 This project uses SQL to study Covid-19 data from January 1, 2020, to October 3, 2023. By asking questions to the data, we found important facts about the Covid-19 pandemic during this time. The project helps us understand how the pandemic has affected people and countries over the past few years.
 
