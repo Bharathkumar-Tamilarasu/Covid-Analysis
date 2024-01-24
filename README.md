@@ -44,7 +44,7 @@ Four key [datasets](https://github.com/Bharathkumar-Tamilarasu/Covid19-An-Analyt
 ## Entity Relationship Diagram
 ![alt text](https://github.com/Bharathkumar-Tamilarasu/Covid19-An-Analytical-Study/blob/main/Covid_ERD.png)
 
-##
-![Covid_1](https://github.com/Bharathkumar-Tamilarasu/Covid19-An-Analytical-Study/blob/main/Covid_1.jpg)
+## Visuals
+![Covid_1](https://github.com/Bharathkumar-Tamilarasu/Covid19-An-Analytical-Study/blob/main/Covid%20Dashboard.png)
 
 ### Your time and interest in viewing my project are greatly appreciated. Thank you. 😃!
