@@ -14,7 +14,8 @@
 ![Covid_1](https://github.com/Bharathkumar-Tamilarasu/Covid19-An-Analytical-Study/blob/main/Covid_3.jpg)
 
 ## Introduction
-Analyzed COVID-19 data from January 1, 2020, to October 3, 2023, using SQL to derive insights. Utilized Tableau to transform findings into impactful visuals, providing a comprehensive understanding of the pandemic's impact on individuals and countries.
+* Analyzed COVID-19 data from January 1, 2020, to October 3, 2023, using SQL to derive insights.
+* Utilized Tableau to transform findings into impactful visuals, providing a comprehensive understanding of the pandemic's impact on individuals and countries.
 
 ## Data Analysis
 
